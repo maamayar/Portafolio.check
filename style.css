@@ -133,6 +133,6 @@ margin-top: 100px;
     font-size: 20px;
     transition: .3s;
 }
-.inicio .contenido-banner .redes a:hover{
+.inicio .contenido-banner  .redes a:hover{
     background-color: #6be7e9;
 }
