@@ -246,4 +246,130 @@ margin-bottom: 50px;
     background-color: #6be7e9;
    
 }
+/* SECCION SKILLS - H A B I L I D A D E S  */
+
+.skills{
+    background-color: #252a2e;
+    color: #fff;
+    padding: 0px 90px;
+}
+.skills .contenido-seccion {
+    max-width: 1000px;
+    margin: auto;
+}
+.skills h2{
+    font-size: 48px;
+    font-family:"Righteous";
+    text-align: center;
+    padding: 20px 0;
+    color: #6be7e9; 
+}
+.skills .fila{
+    display: flex;
+}
+.skills .fila .col{
+    width: 100%;
+    margin-bottom:0  20px;
+}
+.skills .fila .col h3{
+    font-size: 28px;
+    font-family: "Righteous";
+    margin-bottom: 50px;
+}
+.skills .skill > span{
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+.skills .skill .barra-skill{
+    height: 8px;
+    width: 80%;
+    background-color: #121517;
+    position: relative;
+    margin-bottom: 30px;
+}
+.skills .skill .progreso{
+    background-color: #6be7e9;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 8px;
+}
+.skills .skill .barra-skill span{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background-color: #6be7e9;
+    border-radius: 50px;
+    line-height: 40px;
+    text-align: center;
+    top: -17px;
+    right: -15px;
+    font-size: 14px;
+}
+/* PORCENTAJE DE AVANCE EN HABILIDADES  CON JAVASCRIPT*/
+.skills .skill .htmlcss{
+    width: 0%;
+    animation: 2s htmlcss forwards;
+}
+@keyframes htmlcss {
+0%{width: 0%;}
+100%{width: 90%;}
+}
+.skills .skill .procreate{
+    width: 0%;
+    animation: 2s procreate forwards;
+}
+@keyframes procreate {
+0%{width: 0%;}
+100%{width: 95%;}
+}
+.skills .skill .PaqueteADOBE {
+    width: 0%;
+    animation: 2s PaqueteADOBE forwards;
+}
+@keyframes PaqueteADOBE {
+0%{width: 0%;}
+100%{width: 80%;}
+}
+.skills .skill .Autocad {
+    width: 0%;
+    animation: 2s Autocad forwards;
+}
+@keyframes Autocad  {
+0%{width: 0%;}
+100%{width: 67%;}
+}
+.skills .skill .comunicacion {
+    width: 0%;
+    animation: 2s comunicacion forwards;
+}
+@keyframes comunicacion {
+0%{width: 0%;}
+100%{width: 96%;}
+}
+.skills .skill .Trabajoenequipo {
+    width: 0%;
+    animation: 2s Trabajoenequipo forwards;
+}
+@keyframes Trabajoenequipo  {
+0%{width: 0%;}
+100%{width: 78%;}
+}
+.skills .skill .SCRUM {
+    width: 0%;
+    animation: 2s Autocad forwards;
+}
+@keyframes SCRUM  {
+0%{width: 0%;}
+100%{width: 85%;}
+}
+.skills .skill .Creatividad {
+    width: 0%;
+    animation: 2s Creatividad forwards;
+}
+@keyframes Creatividad {
+0%{width: 0%;}
+100%{width: 90%;}
+}
 
