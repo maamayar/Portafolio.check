@@ -133,6 +133,117 @@ margin-top: 100px;
     font-size: 20px;
     transition: .3s;
 }
-.inicio .contenido-banner  .redes a:hover{
+
+.contenido-banner  .redes a:hover{
     background-color: #6be7e9;
 }
+
+/* SECCION S O B R E  -  M I */
+
+.sobremi{
+    background-color: #1e2326;
+    color: #fff;
+    padding: 0px 90px;
+}
+.sobremi  .contenido-seccion {
+    max-width: 1000px;
+    margin: auto;
+}
+.sobremi h2{
+    font-size: 48px;
+    font-family:"Righteous";
+    text-align: center;
+    padding: 20px 0;
+    color: #6be7e9; 
+}
+.sobremi .contenido-seccion p{
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 20px;
+    padding: 0px 10px;
+    text-align: justify;
+}
+
+.hola{
+    color: #6be7e9;
+    font-weight: bold;   
+}
+
+.sobremi .fila{
+    display:flex ;
+}
+.sobremi .fila .col{
+    width: 58%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sobremi .fila .col h3{
+font-size: 28px;
+font-family: "Righteous";
+margin-bottom: 50px;
+}
+.sobremi .fila .col ul{
+    list-style: none;
+}
+.sobremi .fila .col ul li{
+    margin: 12px 0;
+}
+.sobremi .fila .col ul li strong{
+    display: inline-block;
+    color:#6be7e9;
+    width:130px;
+}
+.sobremi .fila .col ul li span{
+    background-color: #63d8da;
+    padding: 3px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.sobremi .fila .col .contenedor-intereses{
+    display: flex;
+    flex-wrap: wrap;
+    text-align:center;
+}
+
+.sobremi .fila .col .contenedor-intereses .intereses{
+    width: 120px;
+    height: 120px;
+    background-color:#252a2e;
+    border-radius: 10px;
+    margin: 8 15px 15px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+.sobremi .fila .col .contenedor-intereses .intereses:hover{
+    background-color: #6be7e9;
+}
+.sobremi .fila .col .contenedor-intereses .intereses i{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+/* Boton descargar CV */
+.sobremi button{
+    cursor: pointer;
+    background-color: transparent;
+    border: 3px solid #fff;
+    width: fit-content;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 22px;
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+    z-index: 10;
+    border-radius: 10px ;
+    transition:blackground-color 0.3s;
+}
+.sobremi button:active{
+    background-color: #6be7e9;
+   
+}
+
